@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/12-mini-socialmedia/static/css/main.c604b5e6.chunk.css",
+    "main.js": "/12-mini-socialmedia/static/js/main.46deb1b2.chunk.js",
+    "main.js.map": "/12-mini-socialmedia/static/js/main.46deb1b2.chunk.js.map",
+    "runtime-main.js": "/12-mini-socialmedia/static/js/runtime-main.cd0d66c4.js",
+    "runtime-main.js.map": "/12-mini-socialmedia/static/js/runtime-main.cd0d66c4.js.map",
+    "static/js/2.294f7613.chunk.js": "/12-mini-socialmedia/static/js/2.294f7613.chunk.js",
+    "static/js/2.294f7613.chunk.js.map": "/12-mini-socialmedia/static/js/2.294f7613.chunk.js.map",
+    "index.html": "/12-mini-socialmedia/index.html",
+    "precache-manifest.11bfa26e63f0ec0cf9365e7e40244faf.js": "/12-mini-socialmedia/precache-manifest.11bfa26e63f0ec0cf9365e7e40244faf.js",
+    "service-worker.js": "/12-mini-socialmedia/service-worker.js",
+    "static/css/main.c604b5e6.chunk.css.map": "/12-mini-socialmedia/static/css/main.c604b5e6.chunk.css.map",
+    "static/js/2.294f7613.chunk.js.LICENSE.txt": "/12-mini-socialmedia/static/js/2.294f7613.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd0d66c4.js",
+    "static/js/2.294f7613.chunk.js",
+    "static/css/main.c604b5e6.chunk.css",
+    "static/js/main.46deb1b2.chunk.js"
+  ]
+}
