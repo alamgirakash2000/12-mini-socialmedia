@@ -1,0 +1,14 @@
+.dropdown__button {
+  border: none;
+  background: none;
+}
+.dropdown__button:hover {
+  color: blue;
+}
+.dropdown__button:focus {
+  outline: none;
+}
+
+.modal {
+  position: fixed;
+}

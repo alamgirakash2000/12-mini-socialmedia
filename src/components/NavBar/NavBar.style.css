@@ -1,0 +1,20 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.767);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.navLink {
+  color: white;
+}
+
+.navLink:hover {
+  text-decoration: none;
+  color: rgb(59, 59, 211);
+}
+
+.selected {
+  color: turquoise;
+  border-bottom: 2px solid turquoise;
+  padding: 5px 10px;
+}

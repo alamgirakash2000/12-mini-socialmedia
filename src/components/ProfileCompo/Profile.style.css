@@ -1,0 +1,15 @@
+.user__image {
+  max-height: 200px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.table::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .user__image {
+    max-height: 100px;
+  }
+}

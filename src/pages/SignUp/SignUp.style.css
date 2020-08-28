@@ -1,0 +1,28 @@
+.login-form {
+  background-color: rgba(0, 0, 0, 0.938);
+  color: white;
+  height: 100vh;
+}
+
+.signup-header {
+  background: rgb(4, 110, 114);
+}
+
+.signin-from {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+  color: black;
+  margin: 40px;
+}
+
+.signup-button {
+  background-color: #007bff;
+  width: 250px;
+  padding: 10px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 4px 4px solid gray;
+}

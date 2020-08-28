@@ -1,0 +1,52 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: createPostAnimation 0.4s linear;
+}
+
+@keyframes createPostAnimation {
+  0% {
+    transform: scale(0);
+    margin-left: -100%;
+  }
+  100% {
+    transform: scale(1);
+    margin-left: 0;
+    transition: all 0.4s linear;
+  }
+}
+
+.imageUpload__progress {
+  width: 100%;
+}
+.imageUpload__file {
+  margin: 1rem 0;
+}
+.imageUpload__button {
+  margin: 1rem auto;
+  color: white;
+  border: none;
+  background-color: rgb(64, 117, 196);
+  padding: 0.4rem;
+  width: 40%;
+}
+
+.cancel:hover {
+  text-decoration: none;
+  color: turquoise;
+  opacity: 0.8;
+}
+
+.addPost:focus {
+  outline: none;
+}
+@media (max-width: 500px) {
+  .addPost {
+    width: 90%;
+  }
+}

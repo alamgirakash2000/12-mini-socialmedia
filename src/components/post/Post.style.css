@@ -1,0 +1,97 @@
+.post {
+  background-color: rgba(255, 255, 255, 0.808);
+  max-width: 400px;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+  animation: postAnimation 0.4s ease-in-out;
+}
+
+@keyframes postAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    transition: transform 0.4s linear;
+  }
+}
+
+.post__header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.post__avatar {
+  margin-right: 1rem;
+}
+
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  max-height: 300px;
+}
+.post__text {
+  font-weight: normal;
+  padding: 1rem;
+}
+
+.comment {
+  background-color: white;
+  padding: 5px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.comment__button {
+  border: none;
+  background: none;
+  margin-left: 5px;
+}
+.post__comments {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.edit__button {
+  margin-left: auto;
+}
+
+/* New */
+
+.like_commets {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.react_btn {
+  border: none;
+  background: none;
+  color: red;
+}
+.react_btn:focus {
+  outline: none;
+}
+
+.comment__input {
+  border-radius: 20px;
+}
+.comment__button {
+  color: blue;
+  margin-left: -35px;
+  margin-bottom: 15px;
+}
+.comment__button:focus {
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 500px) {
+  .post {
+    width: 100%;
+    padding: 5px;
+    margin: 1rem 0;
+  }
+}
