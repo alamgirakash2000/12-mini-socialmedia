@@ -1,5 +1,4 @@
 <h1>Mini Social Media</h1> 
-<h5> -A hotel room reservation site</h5>
    <ul> 
 	  <li> <a target="_blank" href="https://alamgirakash2000.github.io/12-mini-socialmedia/"> Live Website Link</a>
 	  <li> <a target="_blank" href="https://github.com/alamgirakash2000/12-mini-socialmedia"> Client Side Code Link</a>
