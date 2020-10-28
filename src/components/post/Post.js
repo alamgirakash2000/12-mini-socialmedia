@@ -118,7 +118,7 @@ function Post({
       <div className="post__comments">
         {comments?.slice(0, 2).map((comment) => (
           <div className="comment mt-2">
-            <p className="comment m-0">
+            <p className="comment_text m-0">
               <strong>{comment.username} </strong>
               {comment.text}
             </p>

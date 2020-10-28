@@ -10,6 +10,7 @@ import Profile from "./pages/Profile/Profile";
 import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
 import CreatePost from "./pages/CreatePost/CreatePost";
+import EditProfile from "./pages/EditProfile/EditProfile";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import { database } from "./firebase/Config";
 
@@ -59,6 +60,7 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/signup" component={SignUp} />
         <Route path="/createpost" component={CreatePost} />
+        <Route path="/editprofile" component={EditProfile} />
         <Route component={ErrorPage} />
       </Switch>
     </Router>

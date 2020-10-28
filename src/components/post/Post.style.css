@@ -44,6 +44,17 @@
   padding: 5px;
   border-radius: 20px;
   padding-left: 10px;
+  animation: commentAnimation 0.4s ease-in-out;
+}
+
+@keyframes commentAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    transition: transform 0.4s linear;
+  }
 }
 
 .comment__button {
